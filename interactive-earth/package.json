@@ -1,0 +1,20 @@
+{
+  "name": "interactive-earth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gsap": "^3.12.7",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.0"
+  }
+}

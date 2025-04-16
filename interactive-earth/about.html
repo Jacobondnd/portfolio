@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Jacob's Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the main stylesheet for consistency -->
+    <style>
+        /* Basic styles for content pages */
+        body {
+            color: #333;
+            font-family: sans-serif;
+            line-height: 1.6;
+            overflow: auto; /* Allow scrolling */
+            padding: 20px;
+        }
+        .content-wrapper {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a1a1a;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .profile-pic {
+            display: block;
+            max-width: 200px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 50%; /* Circular image */
+            margin: 0 auto 30px auto;
+            /* Placeholder styling */
+            background-color: #ccc;
+            border: 3px solid #aaa;
+            text-align: center;
+            line-height: 194px; /* Vertically center text */
+            color: #555;
+            font-style: italic;
+        }
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .coming-soon {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <h1>About Me</h1>
+
+        <!-- Headshot -->
+        <img src="images/headshot.png" alt="Jacob" class="profile-pic">
+
+        <p>
+            Hi, I'm Jacob, a 20-year-old freelance developer passionate about helping local businesses enhance their online presence.
+        </p>
+        <p>
+            My primary focus is creating effective and engaging websites tailored to your specific needs. I'm constantly learning and expanding my skillset.
+        </p>
+        <p>
+            In the future, I plan to offer services in:
+            <ul>
+                <li>Website Development (Available Now)</li>
+                <li>Automations <span class="coming-soon">(Coming Soon)</span></li>
+                <li>AI Agents <span class="coming-soon">(Coming Soon)</span></li>
+            </ul>
+        </p>
+        <p>
+            Let's work together to build something great for your business!
+        </p>
+
+        <a href="index.html" class="back-link">&larr; Back to Home</a>
+    </div>
+</body>
+</html>
