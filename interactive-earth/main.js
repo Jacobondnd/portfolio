@@ -30,8 +30,10 @@ if (container) {
 }
 
 // Texture Loader
+import earthDaymap from './textures/earth_daymap.jpg';
+
 const textureLoader = new THREE.TextureLoader();
-const earthTexture = textureLoader.load('/interactive-earth/textures/earth_daymap.jpg'); // Ensure you have this texture
+const earthTexture = textureLoader.load(earthDaymap); // Ensure you have this texture
 
 // Earth Geometry and Material
 const earthGeometry = new THREE.SphereGeometry(2, 64, 64); // Radius 2, high detail
