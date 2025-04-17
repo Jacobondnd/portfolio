@@ -83,7 +83,9 @@ const mouse = new THREE.Vector2();
 // --- Interaction ---
 
 function onPointerDown(event) {
-    event.preventDefault();
+    if (event.type === 'touchstart') {
+        event.preventDefault();
+    }
     // Calculate mouse position in normalized device coordinates (-1 to +1) for both components
     mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
     mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
