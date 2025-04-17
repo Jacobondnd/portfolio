@@ -105,7 +105,7 @@ function onPointerDown(event) {
     }
 }
 
-window.addEventListener('click', onPointerDown); // Changed to 'click' for potentially better UX than 'pointerdown'
+window.addEventListener('touchstart', onPointerDown); // Changed to 'click' for potentially better UX than 'pointerdown'
 
 
 // OrbitControls (Optional, but helpful for debugging/viewing)
